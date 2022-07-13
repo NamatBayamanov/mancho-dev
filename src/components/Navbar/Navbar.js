@@ -11,17 +11,19 @@ function Navbar() {
             <ul className={classes.list}>
               <div className={classes.logo}>
                 <li className={classes.img__container}>
-                  <img src={logoImage}  alt="#"/>
+                  <a href="/">
+                    <img src={logoImage} alt="#" />
+                  </a>
                 </li>
               </div>
               <li>
-                Главная
+                <a href="/">Главная</a>
               </li>
               <li>
-                Блог
+                <a href="/">Блог</a>
               </li>
               <li>
-                Hub
+                <a href="/">Hub</a>
               </li>
             </ul>
           </div>
