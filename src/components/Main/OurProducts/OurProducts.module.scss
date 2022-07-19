@@ -1,0 +1,30 @@
+.OurProducts {
+  margin-bottom: 7rem;
+
+}
+
+.background {
+
+}
+
+.OurProducts {
+
+  & .content {
+    line-height: 35px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+
+    & h2 {
+      color: blue;
+      font-size: 42px;
+      margin: 4rem 0;
+    }
+    & p {
+      font-size: 20px;
+      max-width: 590px;
+    }
+  }
+}

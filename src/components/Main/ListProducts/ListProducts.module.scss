@@ -1,0 +1,60 @@
+.ListProducts {
+
+}
+
+.background {
+
+}
+
+.ListProducts {
+  & .content {
+    gap: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(150px, 550px));
+    
+    & .item__1 {
+      // line-height: 28px;
+      display: flex;
+
+      gap: 10px;
+      & span {
+        display: inline-block;
+        border: 1px solid black;
+        height: 15px;
+        width: 15px;
+        padding: 1.5rem;
+        border-radius: 50%;
+        // text-align: center;
+        
+
+      }
+      & .item__grid {
+        line-height: 22px;
+
+        display: grid;
+        grid-template-rows: repeat(3, minmax(15px, 120px));
+
+        gap: 10px;
+
+        // font-weight: 555;
+        & p {
+        
+          & strong {
+            color: blue;
+
+            font-size: 24px;
+          }
+        }
+
+        & p {
+          font-weight: 555;
+          font-size: 15px;
+          & mark {
+            color: blue;
+            background-color: transparent;
+          }
+        }
+      }
+    }
+  }
+}

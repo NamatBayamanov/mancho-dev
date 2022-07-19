@@ -1,0 +1,49 @@
+.Company {
+
+  margin-bottom: 5rem;
+}
+
+.background {
+
+}
+
+.content {
+  
+  padding: 5rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  & .span {
+    font-size: 16px;
+    padding: 2rem 0;
+
+    
+    & span {
+      display: inline-block;
+      font-weight: 555;
+      color: blue;
+    }
+  }
+  & .content__body {
+
+    gap: 40px;
+    line-height: 43px;
+    display: grid;
+    grid-template-rows: 2;
+    grid-template-columns: repeat(1, minmax(150px, 790px));
+    font-size: 24px;
+    
+
+    & .content__item {
+      & a {
+        border-bottom: 3px solid blue;
+        border-radius: .3rem;
+      }
+
+    }
+    & .content__item2 {
+      
+    }
+  }
+}

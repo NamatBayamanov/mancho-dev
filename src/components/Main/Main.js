@@ -1,44 +1,16 @@
+import Company from "./Company/Company";
+import ListProducts from "./ListProducts/ListProducts";
 import classes from "./Main.module.scss";
+import OurProducts from "./OurProducts/OurProducts";
 
 function Main() {
   return ( 
     <div className={classes.Main}>
-    asfasdf jkjlhjhahjsfasfha  a
-    aksdlfha;sdf
-    adsklfha;sdf
-    asldfhasdf
-    <br/>
-    asfasdf jkjlhjhahjsfasfha  a
-    aksdlfha;sdf
-    adsklfha;sdf
-    asldfhasdf
-    <br/>
-    asfasdf jkjlhjhahjsfasfha  a
-    aksdlfha;sdf
-    adsklfha;sdf
-    asldfhasdf
-    <br/>
-    asfasdf jkjlhjhahjsfasfha  a
-    aksdlfha;sdf
-    adsklfha;sdf
-    asldfhasdf
-    <br/>
-    asfasdf jkjlhjhahjsfasfha  a
-    aksdlfha;sdf
-    adsklfha;sdf
-    asldfhasdf
-    <br/>
-    asfasdf jkjlhjhahjsfasfha  a
-    aksdlfha;sdf
-    adsklfha;sdf
-    asldfhasdf
-    <br/>
-    asfasdf jkjlhjhahjsfasfha  a
-    aksdlfha;sdf
-    adsklfha;sdf
-    asldfhasdf
-    <br/>
+    
+    <Company />
 
+    <OurProducts />
+    <ListProducts/>
     </div>
   );
 }
