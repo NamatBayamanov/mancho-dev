@@ -1,4 +1,6 @@
 .ListProducts {
+  padding-left: 4rem;
+  padding-right: 2rem;
 
 }
 
@@ -17,17 +19,32 @@
       display: flex;
 
       gap: 10px;
-      & span {
-        display: inline-block;
-        border: 1px solid black;
-        height: 15px;
-        width: 15px;
-        padding: 1.5rem;
-        border-radius: 50%;
-        // text-align: center;
-        
+      & button {
+        display: flex;
+        background-color: cyan;
 
+        border: 1px solid rgb(0, 0, 0);
+
+        height: 15px;
+          width: 15px;
+          padding: 1.5rem;
+          border-radius: 50%;
+
+          align-items: center;
+          justify-content: center;
+
+          font-size: 2rem;
+        & span {
+          display: inline-block;
+          
+          // border: 1px solid black;
+          
+          // text-align: center;
+          
+  
+        }
       }
+      
       & .item__grid {
         line-height: 22px;
 
@@ -53,6 +70,31 @@
             color: blue;
             background-color: transparent;
           }
+        }
+      }
+    }
+  }
+}
+
+@media(max-width: 1040px) {
+  .ListProducts {
+    & .content {
+      
+      display: grid;
+      grid-template-columns: repeat(1, minmax(80px, 1000px));
+      
+      gap: 1px;
+      & .item__1 {
+        // margin-bottom: -10px;
+        & .item__grid {
+          margin-bottom: -10px;
+
+          
+          & p {
+            
+          
+          }
+          
         }
       }
     }
