@@ -1,16 +1,23 @@
 import Company from "./Company/Company";
 import ListProducts from "./ListProducts/ListProducts";
 import classes from "./Main.module.scss";
+import MorePhotos from "./MorePhotos/MorePhotos";
 import OurProducts from "./OurProducts/OurProducts";
+import Ourteam from "./Ourteam/Ourteam";
+import PhotosCompany from "./PhotosCompany/PhotosCompany";
 
 function Main() {
-  return ( 
+  return (
     <div className={classes.Main}>
-    
-    <Company />
+      <Company />
 
-    <OurProducts />
-    <ListProducts/>
+      <OurProducts />
+      <ListProducts />
+      <PhotosCompany />
+
+      <MorePhotos />
+
+      <Ourteam />
     </div>
   );
 }
