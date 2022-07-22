@@ -1,7 +1,10 @@
 import Company from "./Company/Company";
+import HowWeWork from "./HowWeWork/HowWeWork";
+import JoinUs from "./JoinUs/JoinUs";
 import ListProducts from "./ListProducts/ListProducts";
 import classes from "./Main.module.scss";
 import MorePhotos from "./MorePhotos/MorePhotos";
+import OurContact from "./OurContact/OurContact";
 import OurProducts from "./OurProducts/OurProducts";
 import Ourteam from "./Ourteam/Ourteam";
 import OurteamContent from "./Ourteam/OurteamContent/OurteamContent";
@@ -20,6 +23,9 @@ function Main() {
 
       <Ourteam />
       <OurteamContent/>
+      <HowWeWork/>
+      <JoinUs/>
+      <OurContact/>
     </div>
   );
 }
