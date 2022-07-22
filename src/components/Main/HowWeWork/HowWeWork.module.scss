@@ -1,0 +1,74 @@
+.HowWeWork {
+
+
+  padding-top: 20rem;
+}
+
+.background {
+
+}
+
+.HowWeWork {
+  & .item__title {
+    display: flex;
+    justify-content: center;
+    padding: 0 1rem;
+    & .width__title {
+
+      max-width: 700px;
+      text-align: center;
+      & h2 {
+
+        margin-bottom: 40px;
+
+        color: blue;
+        font-size: 42px;
+      }
+      & p {
+        line-height: 30px;
+        font-size: 20px;
+      }
+    }
+  }
+  & .content {
+    padding-top: 5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+    display: grid;
+    grid-template: repeat(5, minmax(80px, 130px)) / repeat(auto-fit, minmax(455px, 1fr));
+
+    gap: 15px;
+
+    grid-auto-rows: 150px;
+
+    // grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    & .item__text {
+      
+      & .with__mark {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        & span {
+          font-size: 40px;
+          & .tick {
+            color: white;
+            background-color: blue;
+            border-radius: 50%;
+          }
+        }
+        & h2 {
+          font-size: 20px;
+          color: blue;
+          font-weight: 555;
+        }
+      }
+      & p {
+        margin-left: 3.5rem;
+        font-size: 18px;
+
+        line-height: 28px;
+      }
+    }
+  }
+}
