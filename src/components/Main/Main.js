@@ -4,6 +4,7 @@ import classes from "./Main.module.scss";
 import MorePhotos from "./MorePhotos/MorePhotos";
 import OurProducts from "./OurProducts/OurProducts";
 import Ourteam from "./Ourteam/Ourteam";
+import OurteamContent from "./Ourteam/OurteamContent/OurteamContent";
 import PhotosCompany from "./PhotosCompany/PhotosCompany";
 
 function Main() {
@@ -18,6 +19,7 @@ function Main() {
       <MorePhotos />
 
       <Ourteam />
+      <OurteamContent/>
     </div>
   );
 }
