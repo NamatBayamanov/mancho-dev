@@ -1,0 +1,81 @@
+.JoinUs {
+
+  position: relative;
+  padding-top: 9rem;
+}
+.backdrop {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  background-color: rgba(0, 0, 0, 0.277);
+
+  margin-top: 125px;
+}
+.background {
+  background: url(../../../assets/main/joinus/joinus.webp);
+
+  // height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+  
+}
+.JoinUs {
+  & .content {
+    padding: 0 .5rem;
+    & .content__width {
+      max-width: 840px;
+      padding-top: 10rem;
+      
+      padding-bottom: 9rem;
+      
+      & h2 {
+        font-size: 72px;
+        font-weight: 555;
+        line-height: 95px;
+
+        color: white;
+
+        margin-bottom: 3rem;
+
+        position: relative;
+        z-index: 1;
+      }
+      & p {
+        font-size: 30px;
+        line-height: 50px;
+
+        color: white;
+        margin-bottom: 4rem;
+        position: relative;
+        z-index: 1;
+      }
+      & .btn {
+        padding-top: 5rem;
+        padding-bottom: 2rem;
+        & a {
+          position: relative;
+          z-index: 1;
+          
+          font-size: 16px;
+          display: inline-block;
+
+          padding: 1rem 5rem;
+          border: 1px solid white;
+          border-radius: 3rem;
+          background-color: white;
+          
+
+          color: black;
+          font-weight: 555;
+
+        
+        }
+      }
+    }
+  }
+}
