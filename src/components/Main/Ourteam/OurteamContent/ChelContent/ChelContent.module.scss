@@ -1,0 +1,41 @@
+.ChelContent {
+
+}
+
+.ChelContent {
+
+  padding: 3rem;
+
+  // border: 2px solid red;
+
+  text-align: center;
+
+  // align-items: center;
+  & .item__img {
+    position: relative;
+    padding: 0 0 100% 0;
+
+    
+    & img {
+      width: 100%;
+      height: 100%;
+
+      position: absolute;
+      top: 0;
+      left: 0;
+
+      object-fit: cover;
+
+    
+    }
+  }
+  & h2 {
+    color: blue;
+    font-size: 22px;
+    padding: 1rem;
+  }
+
+  & span {
+    font-size: 14px;
+  }
+}
