@@ -1,11 +1,41 @@
 import classes from "./Header.module.scss";
 import manchoVideo from "../../assets/videos/manchodev.mp4";
+import { useEffect, useState } from "react";
 // import ReactPlayer from "react-player";
 function Header() {
-  const styles = {
-    // width: 100% + "%",
-    // height: 100 + "vh",
-  };
+  
+  const [h2, setH2] = useState({
+    visibility: "hidden",
+  });
+
+  useEffect(() => {
+    setTimeout(() => {
+      setH2({visibility: `visible` });
+    }, 600);
+  }, []);
+
+  const [activeBtn, setActiveBtn] = useState({
+    visibility: "hidden",
+  });
+
+  useEffect(() => {
+    setTimeout(() => {
+      setActiveBtn({visibility: `visible` });
+    }, 800);
+  }, []);
+
+
+  const [btn, setBtn] = useState({
+    visibility: "hidden",
+  });
+
+  useEffect(() => {
+    setTimeout(() => {
+      setBtn({visibility: `visible` });
+    }, 1150);
+  }, []);
+
+
   return (
     <div className={classes.Header}>
       <div className={classes.background}>
@@ -21,18 +51,18 @@ function Header() {
         <div className="container">
           <div className={classes.content}>
             <div className={classes.width__text}>
-              <h2>
+              <h2 style={h2}>
                 Наша миссия — <br />
                 оптимизировать процессы, <br /> используя технологии,
                 <br />
                 во благо людей.
               </h2>
               <div className={classes.buttons}>
-                <a className={classes.active__btn} href="/">
+                <a style={activeBtn} className={classes.active__btn} href="/">
                   Присоединяйся в команду
                 </a>
 
-                <a className={classes.btn} href="/">
+                <a style={btn} className={classes.btn} href="/">
                   Наши продукты
                 </a>
               </div>
