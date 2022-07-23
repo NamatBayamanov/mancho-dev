@@ -22,16 +22,5 @@
       }
     }
   }
-  & .list .logo {
-    flex: 1 1 0;
-    
-    & .img__container {
-      max-width: 60px;
-      
-      & img {
-        width: 100%;
-        // display: block;
-      }
-    }
-  }
+  
 }
