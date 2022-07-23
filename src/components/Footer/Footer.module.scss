@@ -1,0 +1,50 @@
+.Footer {
+  
+
+}
+.background {
+  background-color: black;
+  padding-left: 1rem;
+}
+
+.Footer {
+  & .content {
+    display: flex;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+
+    & .logo__start {
+      flex: 1 1 0;
+      & div {
+        & li {
+          max-width: 120px;
+        }
+      }
+      & .after__logo {
+        color: gray;
+        font-size: 14px;
+        padding-top: 4rem;
+        line-height: 22px;
+      }
+    }
+    & .list_1 {
+      display: flex;
+      flex-direction: column;
+      gap: 25px;
+      padding-left: 3rem;
+      margin-left: 1rem;
+      & h2 {
+        margin-bottom: 10px;
+        padding-right: 1rem;
+        font-size: 22px;
+        color: gray;
+      }
+      & li {
+        & a {
+          color: white;
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}
