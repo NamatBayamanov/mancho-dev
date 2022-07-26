@@ -79,3 +79,35 @@
     }
   }
 }
+
+@media(max-width: 580px) {
+  .JoinUs {
+    & .content {
+      
+      & .content__width {
+        
+        
+        & h2 {
+          font-size: 56px;
+          
+        }
+        & p {
+          font-size: 24px;
+          
+        }
+        & .btn {
+          
+          & a {
+          
+            
+            font-size: 16px;
+            
+  
+          
+          }
+        }
+      }
+    }
+  }
+  
+}
