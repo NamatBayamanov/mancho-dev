@@ -1,8 +1,8 @@
 import classes from "./Navbar.module.scss";
 
-
 import Logo from "../ui/Logo/Logo";
 
+import NavItem from "./NavItem/NavItem";
 function Navbar() {
   return (
     <div className={classes.Navbar}>
@@ -10,18 +10,10 @@ function Navbar() {
         <div className="container">
           <div className={classes.content}>
             <ul className={classes.list}>
-              <Logo/>
-
-
-              <li>
-                <a href="/">Главная</a>
-              </li>
-              <li>
-                <a href="/">Блог</a>
-              </li>
-              <li>
-                <a href="/">Hub</a>
-              </li>
+              <Logo />
+              <NavItem url="/">Главная</NavItem>
+              <NavItem url="/blog">Блог</NavItem>
+              <NavItem url="/hub">Hub</NavItem>
             </ul>
           </div>
         </div>
