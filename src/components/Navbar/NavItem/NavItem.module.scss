@@ -1,0 +1,47 @@
+.NavItem {
+  
+  & a {
+    border-top: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+    color: rgb(255, 255, 255);
+
+    position: relative;
+  }
+  // & a.active {
+  //   border-bottom-color: white;
+  //   border-top-color: white;
+  // }
+  & a::before {
+    content: "";
+    background-color: transparent;
+    display: inline-block;
+
+    width: 15px;
+    height: 4px;
+
+    position: absolute;
+    top: -4px;
+    left: 5px;
+
+    border-radius: .5rem;
+  }
+  & a::after {
+    content: "";
+    background-color: transparent;
+    display: inline-block;
+
+    width: 15px;
+    height: 4px;
+
+    position: absolute;
+    bottom: -4px;
+    right: 5px;
+    border-radius: .5rem;
+  }
+  & a.active::before {
+    background-color: rgb(103, 91, 234);
+  }
+  & a.active::after {
+    background-color: rgb(103, 91, 234);
+  }
+}
