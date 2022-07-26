@@ -1,3 +1,4 @@
+import Header from "../Header/Header";
 import Company from "./Company/Company";
 import HowWeWork from "./HowWeWork/HowWeWork";
 import JoinUs from "./JoinUs/JoinUs";
@@ -13,6 +14,7 @@ import PhotosCompany from "./PhotosCompany/PhotosCompany";
 function Main() {
   return (
     <div className={classes.Main}>
+      <Header/>
       <Company />
 
       <OurProducts />
