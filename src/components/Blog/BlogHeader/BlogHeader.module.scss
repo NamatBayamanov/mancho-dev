@@ -1,0 +1,24 @@
+.BlogHeader {
+  background-color: rgb(72, 72, 234);
+  text-align: center;
+  padding: 0 4rem;
+  padding-top: 14rem;
+  padding-bottom: 20rem;
+  
+  
+
+  & h2 {
+    color: white;
+    font-size: 72px;
+    font-weight: 555;
+  }
+}
+@media(max-width: 792px) {
+  .BlogHeader {
+    & h2 {
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+      font-size: 30px;
+    }
+  }
+}
