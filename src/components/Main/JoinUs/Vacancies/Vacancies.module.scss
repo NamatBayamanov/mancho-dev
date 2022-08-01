@@ -1,0 +1,114 @@
+.Vacancies {
+  margin-top: -9rem;
+}
+.background {
+  padding: 0 2rem;
+}
+
+.Vacancies {
+  & div {
+    & article {
+      // border: 1px solid red;
+      & p {
+        padding-top: 4.5rem;
+        padding-bottom: 2rem;
+        & a {
+          position: relative;
+          z-index: 1;
+          
+          font-size: 15px;
+          display: inline-block;
+
+          padding: 0rem 5rem;
+          // border: 1px solid white;
+          border-radius: 3rem;
+          background-color: white;
+          
+
+          color: black;
+          font-weight: 555;
+        }
+      }
+    }
+  }
+}
+.Vacancies {
+  & .content {
+    padding-top: 2rem;
+    padding-bottom: 8rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(415px, 1fr));
+    gap: 30px;
+    & .img__container {
+      position: relative;
+      padding: 0 0 95% 0;
+      & img {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        object-fit: cover;
+      }
+    }
+
+    & .user {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center; 
+      & .user__width {
+
+        text-align: center;
+        & h2 {
+          font-size: 38px;
+          color: rgb(76, 76, 238);
+          font-weight: 555;
+          margin-bottom: 1.8rem;
+        }
+        & p {
+          font-size: 15px;
+          color: rgb(171, 166, 166);
+          position: relative;
+        }
+        & p::after {
+          content: "";
+          width: 50px;
+          height: 3px;
+          color: gray;
+          background-color: gray;
+          position: absolute;
+          bottom: -35px;
+          left: 130px;
+        
+        }
+      }
+
+      & article {
+        & aside {
+          margin-top: 2rem;
+          font-size: 18px;
+          line-height: 25px;
+          & span {
+            color: black;
+            font-weight: 555;
+          }
+          & .blue {
+            color: blue;
+            font-weight: 555;
+          }
+        }
+      }
+      & article :nth-child(1) {
+        margin-top: 5rem;
+      }
+    }
+  }
+}
+.Vacancies {
+  & section {
+    padding-top: 8rem;
+  }
+}
