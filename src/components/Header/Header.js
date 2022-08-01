@@ -5,33 +5,35 @@ import { useEffect, useState } from "react";
 function Header() {
   
   const [h2, setH2] = useState({
-    visibility: "hidden",
+    // visibility: "hidden",
+    opacity: 0,
   });
 
   useEffect(() => {
     setTimeout(() => {
-      setH2({visibility: `visible` });
+      setH2({opacity: `${9}`, transition: `opacity ${.5}s`, });
     }, 600);
   }, []);
 
   const [activeBtn, setActiveBtn] = useState({
-    visibility: "hidden",
+    opacity: 0,
+
   });
 
   useEffect(() => {
     setTimeout(() => {
-      setActiveBtn({visibility: `visible` });
+      setActiveBtn({opacity: `${9}`, transition: `opacity ${1}s`,});
     }, 800);
   }, []);
 
 
   const [btn, setBtn] = useState({
-    visibility: "hidden",
+    opacity: 0,
   });
 
   useEffect(() => {
     setTimeout(() => {
-      setBtn({visibility: `visible` });
+      setBtn({opacity: `${9}`, transition: `opacity ${1.5}s`,});
     }, 1150);
   }, []);
 
