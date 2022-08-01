@@ -4,7 +4,7 @@ import { BsCheckCircle } from "react-icons/bs";
 
 function HowWeWork() {
   return (
-    <div className={classes.HowWeWork}>
+    <section className={classes.HowWeWork}>
       <div className={classes.background}>
         <div className="container">
           <div className={classes.item__title}>
@@ -161,7 +161,7 @@ function HowWeWork() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 
