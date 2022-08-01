@@ -1,0 +1,56 @@
+.Hubs {
+  
+}
+.background {
+  
+}
+
+
+
+.Hubs {
+  & div {
+    padding: 0 4rem;
+    padding-top: 8rem;
+    padding-bottom: 14rem;
+    & h2 {
+      font-size: 68px;
+    }
+  }
+  & .content {
+    padding: 0 3rem;
+  & ul {
+    padding: 5rem 0 6rem 0;
+    // background-color: blue;
+
+    display: block;
+  
+    & li {
+      padding: .5rem 0;
+      margin: 0;
+      border-top: 1px solid rgba(128, 128, 128, 0.159);
+      // border-bottom: 1px solid rgba(128, 128, 128, 0.241);
+      & a {
+        color: rgb(48, 132, 228);
+        display: inline-block;
+        padding: .5rem 0rem;
+        font-size: 18px;
+        font-weight: 555;
+      }
+    }
+  }
+  }
+
+}
+
+@media(max-width: 700px) {
+  .Hubs {
+    & div {
+      padding: 0 4rem;
+      padding-top: 8rem;
+      padding-bottom: 14rem;
+      & h2 {
+        font-size: 36px;
+      }
+    }
+}
+}
