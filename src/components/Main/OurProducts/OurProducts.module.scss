@@ -1,7 +1,7 @@
 .OurProducts {
   margin-bottom: 7rem;
 
-  padding-left: 5rem;
+  padding-left: 2rem;
   padding-right: 2rem;
 }
 
@@ -27,6 +27,30 @@
     & p {
       font-size: 20px;
       max-width: 650px;
+    }
+  }
+}
+
+@media(max-width: 645px) {
+  .OurProducts {
+
+    & .content {
+      line-height: 22px;
+  
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+  
+  
+      & h2 {
+        color: blue;
+        font-size: 32px;
+        margin: 2rem 0;
+      }
+      & p {
+        font-size: 14px;
+        max-width: 650px;
+      }
     }
   }
 }
