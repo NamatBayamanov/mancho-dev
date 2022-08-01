@@ -1,6 +1,6 @@
 import classes from "./SubBlog.module.scss";
 import { useParams } from "react-router-dom";
-import { getProduct } from "../../../data/data";
+import { getProduct } from "../../../data/blog";
 import { useState } from "react";
 
 
