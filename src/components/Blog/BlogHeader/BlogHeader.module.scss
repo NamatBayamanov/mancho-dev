@@ -16,9 +16,10 @@
 @media(max-width: 792px) {
   .BlogHeader {
     & h2 {
-      padding-top: 2rem;
-      padding-bottom: 2rem;
+      padding-top: 0rem;
+      padding-bottom: 0rem;
       font-size: 30px;
+      
     }
   }
 }
