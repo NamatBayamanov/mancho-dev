@@ -1,7 +1,14 @@
 import classes from "./JoinUsView.module.scss";
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-function JoinUsView({ children, text, link_1, link_2, effect }) {
+// import { TiArrowSortedDown } from "react-icons/ti";
+
+
+
+
+function JoinUsView({ children, text, link_1, link_2, effect, btns, scrolls }) {
+
+
   const [h2, setH2] = useState({
     transform: `translate(${-10000 + "px"})`,
   });
@@ -41,6 +48,16 @@ function JoinUsView({ children, text, link_1, link_2, effect }) {
     }, 700);
   }, []);
 
+
+  const Scroll = (event) => {
+    window.scrollTo(0,780);
+  }
+
+  const Scrolls = (event) => {
+    window.scrollTo(0,7255);
+  }
+
+
   return (
     <div className={classes.JoinUsView}>
       <div className={classes.backdrop}></div>
@@ -60,7 +77,22 @@ function JoinUsView({ children, text, link_1, link_2, effect }) {
                   <Link style={effect} to="/join-us">{link_2}</Link>
                 </p>
               </article>
+              
             </div>
+
+            <div className={classes.scroll__btn}>
+                <span id={classes.scroll} onClick={Scroll}>
+                  <span className={classes.react__icon}>
+                    {btns}
+                    
+                  </span>
+                </span>
+                <span id={classes.scroll} onClick={Scrolls}>
+                  <span className={classes.react__icon}>
+                    {scrolls}
+                  </span>
+                </span>
+              </div>
           </div>
         </div>
       </div>
