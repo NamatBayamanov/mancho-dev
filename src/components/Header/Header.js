@@ -1,6 +1,10 @@
 import classes from "./Header.module.scss";
 import manchoVideo from "../../assets/videos/manchodev.mp4";
 import { useEffect, useState } from "react";
+import { TiArrowSortedDown } from "react-icons/ti";
+
+
+
 // import ReactPlayer from "react-player";
 function Header() {
   
@@ -38,6 +42,13 @@ function Header() {
   }, []);
 
 
+  const Scroll = (event) => {
+    window.scrollTo(0,790);
+  }
+  const Scroll2 = (event) => {
+    window.scrollTo(0,1550);
+  }
+
   return (
     <div className={classes.Header}>
       <div className={classes.background}>
@@ -60,17 +71,24 @@ function Header() {
                 во благо людей.
               </h2>
               <div className={classes.buttons}>
-                <a style={activeBtn} className={classes.active__btn} href="/">
+                <a style={activeBtn} className={classes.active__btn} href="/join-us">
                   Присоединяйся в команду
                 </a>
 
-                <a style={btn} className={classes.btn} href="/">
+                <span style={btn} className={classes.btn} onClick={Scroll2}>
                   Наши продукты
-                </a>
+                </span>
               </div>
             </div>
+            
           </div>
         </div>
+
+        <div className={classes.scroll__btn}>
+              <span onClick={Scroll}>
+                <TiArrowSortedDown className={classes.react__scroll}/>
+              </span>
+            </div>
       </div>
     </div>
   );
