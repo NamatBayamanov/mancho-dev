@@ -1,0 +1,21 @@
+.OpenVacancies {
+  background-color: rgb(248, 243, 243);
+  & .background {
+    padding: 0 2rem;
+    padding: 125px 0 80px 0;
+
+    padding-left: 2rem;
+    padding-right: 2rem;
+    & h2 {
+      margin: 0 auto;
+      max-width: 1350px;
+      font-size: 36px;
+      color: rgb(66, 66, 237);
+
+      // border: 1px solid red;
+    }
+    // & h2:hover {
+    //   color: rgb(29, 196, 29);
+    // }
+  }
+}
