@@ -20,33 +20,33 @@ function Footer() {
               </li>
 
               <li>
-                <a href="/">Блог</a>
+                <a href="/blog">Блог</a>
               </li>
 
               <li>
-                <a href="/">Hub</a>
+                <a href="/hub">Hub</a>
               </li>
             </ul>
             <ul className={classes.list_1}>
               <h2>СОЦСЕТИ</h2>
               <li>
-                <a href="/">LinkedIn</a>
+                <a href="https://www.linkedin.com/company/manchodevs/" target="blank">LinkedIn</a>
               </li>
 
               <li>
-                <a href="/">Instagram</a>
+                <a href="https://www.instagram.com/ManchoDevs/">Instagram</a>
               </li>
 
               <li>
-                <a href="/">YouTube</a>
+                <a href="https://www.youtube.com/ManchoDevs">YouTube</a>
               </li>
 
               <li>
-                <a href="/">Telegram</a>
+                <a href="https://t.me/ManchoDevs">Telegram</a>
               </li>
 
               <li>
-                <a href="/">Twitter</a>
+                <a href="https://twitter.com/ManchoDevs">Twitter</a>
               </li>
             </ul>
           </div>
