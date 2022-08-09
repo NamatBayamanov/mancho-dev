@@ -85,14 +85,29 @@
       
       gap: 1px;
       & .item__1 {
+        & button {
+          font-size: 1.2rem;
+          padding: 1rem;
+          & span {
+
+          }
+        }
         // margin-bottom: -10px;
         & .item__grid {
           margin-bottom: -10px;
 
+          grid-template-rows: repeat(3, minmax(15px, 80px));
           
+          // line-height: 16px;
           & p {
             
+            & strong {
+              font-size: 18px;
+            }
           
+          }
+          & p {
+            font-size: 12px;
           }
           
         }
