@@ -28,10 +28,22 @@
           color: black;
           font-weight: 555;
         }
+        & a:hover {
+          color: rgb(30, 202, 30);
+        }
       }
     }
   }
 }
+
+
+
+
+
+
+
+
+
 .Vacancies {
   & .content {
     padding-top: 2rem;
