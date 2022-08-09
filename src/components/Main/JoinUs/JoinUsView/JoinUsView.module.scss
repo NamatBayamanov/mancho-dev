@@ -28,10 +28,12 @@
   & .content {
     padding: 0 .5rem;
     & .content__width {
+
+      // border: 2px solid black;
       max-width: 840px;
-      padding-top: 10rem;
+      padding-top: 8.5rem;
       
-      padding-bottom: 9rem;
+      padding-bottom: 1rem;
       
       & h2 {
         font-size: 72px;
@@ -58,7 +60,6 @@
         display: flex;
         // border: 2px solid red;
         // gap: 15px;
-      
       & .btn {
         padding-top: 5rem;
         padding-bottom: 2rem;
@@ -81,7 +82,39 @@
 
         
         }
+        & a:hover {
+          color: rgb(27, 189, 27);
+        }
       }
+      }
+
+      
+    }
+
+    & .scroll__btn {
+      // border: 3px solid red;
+      display: flex;
+      justify-content: center;
+    
+      & span {
+        display: inline-block;
+        position: relative;
+        z-index: 5;
+        & .react__icon {
+
+          
+          font-size: 60px;
+          color: rgb(255, 255, 255);
+        }
+      }
+      & span:hover {
+        & .react__icon {
+          color: rgb(100, 169, 230);
+
+        }
+      }
+      & #scroll {
+        
       }
     }
   }
