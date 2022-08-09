@@ -1,0 +1,365 @@
+.VacanciesItem {
+  // border: 2px solid black;
+}
+.background {
+  // background-color: greenyellow;
+} 
+.VacanciesItem {
+  & .contain {
+    padding: 5rem 0;
+
+    & .content2 {
+      // border: 2px solid red;
+      display: flex;
+      
+      gap: 15px;
+      & .conditions {
+
+        
+        // border: 2px solid blue;
+        
+        // display: flex;
+        // justify-content: flex-end;
+
+        // flex-direction: column;
+        // align-items: center;
+
+        // display: flex;
+        // flex-direction: column;
+        // align-items: flex-end;
+
+        // text-align: center;
+        & aside {
+          // text-align: left;
+          padding-top: 2rem;
+          padding-bottom: 5rem;
+
+          // margin: 0 auto;
+          // max-width: 860px;
+          padding-left: 4rem;
+
+          // border: 3px solid purple;
+          & h2 {
+            font-size: 42px;
+            color: rgb(68, 68, 228);
+            font-weight: 555;
+            padding-bottom: 2rem;
+          }
+          & p {
+            font-size: 24px;
+          }
+        }
+        & .list_conditions {
+          // max-width: 860px;
+          padding: 0 2rem;
+
+          // border: 2px solid magenta;
+
+          display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+            gap: 25px;
+
+            // max-width: 860px;
+
+          // & .items {
+          //   // max-width: 450px;
+          //   // text-align: left;
+          //   // border: 1px solid red;
+          //   & .react_contain {
+          //     // border: 2px solid blue;
+          //     text-align: left;
+          //     padding-left: 2rem;
+          //     & span {
+          //       display: inline-block;
+          //       font-size: 80px;
+          //       color: rgb(91, 207, 217);
+          //       margin: 0 0 1rem 0;
+  
+                
+  
+          //       & .react {
+                  
+          //       }
+                
+          //     }
+          //   }
+          
+          //   & h3 {
+          //     font-size: 20px;
+          //     color: rgb(85, 85, 234);
+          //     font-weight: 555;
+          //     margin: 0 0 2rem 0;
+
+          //     padding-left: 2rem;
+          //   }
+          //   & p {
+          //     font-size: 15px;
+          //     padding-left: 2rem;
+          //     line-height: 23px;
+          //   }
+          // }
+        }
+      }
+
+
+      & .img__container2 {
+        position: relative;
+        padding: 0 20% 0 12%;
+        & img {
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          object-fit: cover;
+
+        }
+      }
+    }
+  }
+}
+
+@media(max-width: 1158px) {
+  .VacanciesItem {
+    & .contain {
+      padding: 5rem 0;
+  
+      & .content2 {
+        // border: 2px solid red;
+        display: flex;
+        
+        gap: 15px;
+        flex-direction: column;
+        & .conditions {
+  
+          
+          // border: 2px solid blue;
+          
+          // display: flex;
+          // justify-content: flex-end;
+  
+          // flex-direction: column;
+          // align-items: center;
+  
+          // display: flex;
+          // flex-direction: column;
+          // align-items: flex-end;
+  
+          // text-align: center;
+          & aside {
+            // text-align: left;
+            padding-top: 2rem;
+            padding-bottom: 5rem;
+  
+            // margin: 0 auto;
+            // max-width: 860px;
+            padding-left: 4rem;
+  
+            // border: 3px solid purple;
+            & h2 {
+              font-size: 42px;
+              color: rgb(68, 68, 228);
+              font-weight: 555;
+              padding-bottom: 2rem;
+            }
+            & p {
+              font-size: 24px;
+            }
+          }
+          & .list_conditions {
+            // max-width: 860px;
+            padding: 0 2rem;
+  
+            // border: 2px solid magenta;
+  
+            display: grid;
+              grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+              gap: 25px;
+  
+              // max-width: 860px;
+  
+            // & .items {
+            //   // max-width: 450px;
+            //   // text-align: left;
+            //   // border: 1px solid red;
+            //   & .react_contain {
+            //     // border: 2px solid blue;
+            //     text-align: left;
+            //     padding-left: 2rem;
+            //     & span {
+            //       display: inline-block;
+            //       font-size: 80px;
+            //       color: rgb(91, 207, 217);
+            //       margin: 0 0 1rem 0;
+    
+                  
+    
+            //       & .react {
+                    
+            //       }
+                  
+            //     }
+            //   }
+            
+            //   & h3 {
+            //     font-size: 20px;
+            //     color: rgb(85, 85, 234);
+            //     font-weight: 555;
+            //     margin: 0 0 2rem 0;
+  
+            //     padding-left: 2rem;
+            //   }
+            //   & p {
+            //     font-size: 15px;
+            //     padding-left: 2rem;
+            //     line-height: 23px;
+            //   }
+            // }
+          }
+        }
+  
+  
+        & .img__container2 {
+          position: relative;
+          padding: 25% 0 25% 0;
+          margin-top: 2rem;
+          & img {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            object-fit: cover;
+          }
+        }
+      }
+    }
+  }
+}
+@media(max-width: 760px){
+  .VacanciesItem {
+    & .contain {
+      padding: 5rem 0;
+  
+      & .content2 {
+        // border: 2px solid red;
+        display: flex;
+        
+        gap: 15px;
+        & .conditions {
+  
+          
+          // border: 2px solid blue;
+          
+          // display: flex;
+          // justify-content: flex-end;
+  
+          // flex-direction: column;
+          // align-items: center;
+  
+          // display: flex;
+          // flex-direction: column;
+          // align-items: flex-end;
+  
+          // text-align: center;
+          & aside {
+            // text-align: left;
+            padding-top: 2rem;
+            padding-bottom: 5rem;
+  
+            // margin: 0 auto;
+            // max-width: 860px;
+
+            // padding-left: 4rem;
+  
+            // border: 3px solid purple;
+            & h2 {
+              font-size: 42px;
+              color: rgb(68, 68, 228);
+              font-weight: 555;
+              padding-bottom: 2rem;
+              
+            }
+            & p {
+              font-size: 24px;
+              padding-right: 2rem;
+              line-height: 30px;
+            }
+          }
+          & .list_conditions {
+            // max-width: 860px;
+            // padding: 0 2rem;
+  
+            // border: 2px solid magenta;
+  
+            display: grid;
+              grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+              gap: 25px; 
+  
+              // max-width: 860px;
+  
+            // & .items {
+            //   // max-width: 450px;
+            //   // text-align: left;
+            //   // border: 1px solid red;
+            //   & .react_contain {
+            //     // border: 2px solid blue;
+            //     text-align: left;
+            //     padding-left: 0rem;
+            //     & span {
+            //       display: inline-block;
+            //       font-size: 80px;
+            //       color: rgb(91, 207, 217);
+            //       margin: 0 0 1rem 0;
+    
+                  
+    
+            //       & .react {
+                    
+            //       }
+                  
+            //     }
+            //   }
+            
+            //   & h3 {
+            //     font-size: 20px;
+            //     color: rgb(85, 85, 234);
+            //     font-weight: 555;
+            //     margin: 0 0 2rem 0;
+  
+            //     padding-left: 0rem;
+            //   }
+            //   & p {
+            //     font-size: 15px;
+            //     padding-left: 0rem;
+            //     line-height: 23px;
+            //   }
+            // }
+          }
+        }
+  
+  
+        & .img__container2 {
+          position: relative;
+          padding: 25% 0 25% 0;
+          & img {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            object-fit: cover;
+  
+          }
+        }
+      }
+    }
+  }
+  
+}
