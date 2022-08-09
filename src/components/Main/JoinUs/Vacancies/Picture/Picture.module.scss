@@ -1,0 +1,99 @@
+.Picture {
+
+}
+.backdrop {
+
+}
+.background {
+  background: url(../../../../../assets/main/joinus/conditions/joinus.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+.Picture {
+  & .content {
+    padding-top: 14rem;
+    padding-bottom: 14rem;
+    & .contain {
+      max-width: 660px;
+      padding: 0 2rem;
+      & h2 {
+        font-size: 48px;
+        font-weight: 555;
+        color: white;
+        margin-bottom: 3rem;
+      }
+      & p {
+        font-size: 20px;
+        color: white;
+        line-height: 40px;
+        font-family: 'Source Code Pro', monospace;
+          font-family: 'Source Sans Pro', sans-serif;
+          font-family: 'Raleway', sans-serif;
+      }
+      & .link {
+        padding-top: 8rem;
+        & a {
+          display: inline-block;
+          font-size: 22px;
+          color: black;
+          padding: 1.8rem 6rem;
+          border-radius: 3rem;
+          background-color: white;
+          font-weight: 555;
+        }
+      }
+      & .link {
+        & a:hover  {
+          color: rgb(19, 197, 19);
+        }
+      }
+    }
+  }
+}
+@media(max-width: 640px) {
+  .Picture {
+    & .content {
+      padding-top: 14rem;
+      padding-bottom: 14rem;
+      & .contain {
+        max-width: 660px;
+        padding: 0 2rem;
+        & h2 {
+          font-size: 32px;
+          font-weight: 555;
+          color: white;
+          margin-bottom: 3rem;
+        }
+        & p {
+          font-size: 15px;
+          color: white;
+          line-height: 28px;
+          font-family: 'Source Code Pro', monospace;
+            font-family: 'Source Sans Pro', sans-serif;
+            font-family: 'Raleway', sans-serif;
+        }
+        & .link {
+          padding-top: 8rem;
+          display: flex;
+          & a {
+            text-align: center;
+            flex-grow: 1;
+            display: inline-block;
+            font-size: 17px;
+            color: black;
+            padding: 1.4rem 4.5rem;
+            border-radius: 3rem;
+            background-color: white;
+            font-weight: 555;
+          }
+        }
+        & .link {
+          & a:hover {
+            color: rgb(19, 197, 19);
+          }
+        }
+      }
+    }
+  }
+}
