@@ -1,5 +1,3 @@
-import { useMemo, useState } from "react";
-import { useMatch } from "react-router-dom";
 import classes from "./ListVacancies.module.scss";
 function ListVacancies() {
   const [show, setShow] = useState(false);
