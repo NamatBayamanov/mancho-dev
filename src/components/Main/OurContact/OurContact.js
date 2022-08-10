@@ -21,7 +21,7 @@ function OurContact() {
             <div className={classes.map__title}>
               <div className={classes.backdrop}></div>
               <iframe
-              
+                title="Map of World"
                 frameBorder="0"
                 scrolling="no"
                 marginHeight="0"
