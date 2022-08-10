@@ -30,7 +30,7 @@ function Footer() {
             <ul className={classes.list_1}>
               <h2>СОЦСЕТИ</h2>
               <li>
-                <a href="https://www.linkedin.com/company/manchodevs/" target="blank">LinkedIn</a>
+                <a href="https://www.linkedin.com/company/manchodevs/">LinkedIn</a>
               </li>
 
               <li>
