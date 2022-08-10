@@ -167,7 +167,24 @@
       & .scroll__btn {
         & #span__scroll {
           display: none;
-          
+
+        }
+      }
+    }
+  }
+}
+
+@media(max-width: 1334px) {
+  .JoinUsView {
+    & .content {
+      & .content__width {
+        & .links {
+          & .btn {
+            & a {
+              position: relative;
+              z-index: 0;
+            }
+          }
         }
       }
     }

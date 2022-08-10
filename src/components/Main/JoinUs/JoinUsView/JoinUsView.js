@@ -57,6 +57,10 @@ function JoinUsView({ children, text, link_1, link_2, effect, btns, scrolls }) {
     window.scrollTo(0,7255);
   }
 
+  const Scroll3 = (event) => {
+    window.scrollTo(0,6143);
+  }
+
 
   return (
     <div className={classes.JoinUsView}>
@@ -69,7 +73,7 @@ function JoinUsView({ children, text, link_1, link_2, effect, btns, scrolls }) {
               <p style={p}>{text}</p>
               <article className={classes.links}>
                 <div className={classes.btn}>
-                  <Link style={btn} to="/join-us">
+                  <Link style={btn} to="/join-us" onClick={Scroll3}>
                     {link_1}
                   </Link>
                 </div>
