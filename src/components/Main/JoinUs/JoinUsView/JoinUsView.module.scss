@@ -113,7 +113,7 @@
 
         }
       }
-      & #scroll {
+      & #span__scroll {
         
       }
     }
@@ -159,4 +159,17 @@
     }
   }
   
+}
+
+@media(max-width: 1390px) {
+  .JoinUsView {
+    & .content {
+      & .scroll__btn {
+        & #span__scroll {
+          display: none;
+          
+        }
+      }
+    }
+  }
 }
