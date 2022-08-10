@@ -1,7 +1,7 @@
 import classes from "./SubBlog.module.scss";
 import { useParams } from "react-router-dom";
 import { getProduct } from "../../../data/blog";
-import { useState } from "react";
+// import { useState } from "react";
 
 
 function SubBlog() {
@@ -48,7 +48,7 @@ function SubBlog() {
 
 
             <div className={classes.iframe}>
-              <iframe src={product.src} allow={product.allow} frameBorder={product.num} allowFullScreen >
+              <iframe title={product.title}  src={product.src} allow={product.allow} frameBorder={product.num} allowFullScreen >
               Ваш браузер не поддерживает этот iFRAME тег. Пожалуйста
               обновитесь!
               </iframe>
