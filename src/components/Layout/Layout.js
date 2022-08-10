@@ -1,10 +1,10 @@
 import classes from "./Layout.module.scss";
 // import Header from "../Header/Header";
-import Navbar from "../Navbar/Navbar";
+// import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
 import Tooltip from "../Tooltip/Tooltip";
 import Drawer from "../Drawer/Drawer";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 function Layout({children}) {
 
