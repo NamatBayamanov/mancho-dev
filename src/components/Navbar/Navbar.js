@@ -3,7 +3,10 @@ import classes from "./Navbar.module.scss";
 import Logo from "../ui/Logo/Logo";
 
 import NavItem from "./NavItem/NavItem";
-function Navbar() {
+
+
+import MenuBurger from "./MenuBurger/MenuBurger";
+function Navbar({ toggle }) {
   return (
     <div className={classes.Navbar}>
       <div className={classes.background}>
@@ -15,6 +18,9 @@ function Navbar() {
               <NavItem url="/blog">Блог</NavItem>
               <NavItem url="/hub">Hub</NavItem>
             </ul>
+            
+            <MenuBurger btn={toggle}/>
+
           </div>
         </div>
       </div>
