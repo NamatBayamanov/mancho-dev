@@ -1,8 +1,8 @@
 import classes from "./SubHub.module.scss";
 import { useParams } from "react-router-dom";
 import { getHub } from "../../../data/hubs";
-import { useEffect, useState } from "react";
-import axios from "axios";
+// import { useEffect, useState } from "react";
+// import axios from "axios";
 function SubHub() {
 
   const params = useParams();
