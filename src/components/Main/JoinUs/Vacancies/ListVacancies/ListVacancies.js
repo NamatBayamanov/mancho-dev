@@ -1,4 +1,6 @@
+import { useState } from "react";
 import classes from "./ListVacancies.module.scss";
+
 function ListVacancies() {
   const [show, setShow] = useState(false);
   const [show2, setShow2] = useState(false);
