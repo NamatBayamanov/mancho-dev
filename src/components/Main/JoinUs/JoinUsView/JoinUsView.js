@@ -87,7 +87,7 @@ function JoinUsView({ children, text, link_1, link_2, effect, btns, scrolls }) {
                     
                   </span>
                 </span>
-                <span id={classes.scroll} onClick={Scrolls}>
+                <span id={classes.span__scroll} onClick={Scrolls}>
                   <span className={classes.react__icon}>
                     {scrolls}
                   </span>
