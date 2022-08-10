@@ -1,0 +1,21 @@
+.MenuBurger { 
+  display: none;
+  justify-content: flex-end;
+  & span {
+    display: inline-block;
+    padding: .6rem;
+    position: relative;
+    z-index: 5;
+    // transition: all .3s;
+    & .menu {
+      font-size: 36px;
+      color: rgb(252, 252, 252);
+    }
+  }
+}
+
+@media(max-width: 745px) {
+  .MenuBurger {
+    display: flex;
+  }
+}
