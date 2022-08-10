@@ -1,5 +1,3 @@
-
-import classes from "./JoinUs.module.scss";
 import JoinUsView from "./JoinUsView/JoinUsView";
 
 import { TiArrowSortedDown } from "react-icons/ti";
