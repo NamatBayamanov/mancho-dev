@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 // import { TiArrowSortedDown } from "react-icons/ti";
 
 import Media from "react-media";
-import { TiEqualsOutline } from "react-icons/ti";
+// import { TiEqualsOutline } from "react-icons/ti";
 
 
 function JoinUsView({ children, text, link_1, link_2, effect, btns, scrolls }) {
