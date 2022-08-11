@@ -25,7 +25,7 @@ import { TiArrowSortedDown } from "react-icons/ti";
 function Vacancies() {
 
 
-  console.log(classes);
+  // console.log(classes);
 
 
   const [btn, setBtn] = useState({
