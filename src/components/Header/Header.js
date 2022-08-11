@@ -2,6 +2,7 @@ import classes from "./Header.module.scss";
 import manchoVideo from "../../assets/videos/manchodev.mp4";
 import { useEffect, useState } from "react";
 import { TiArrowSortedDown } from "react-icons/ti";
+import { Link } from "react-router-dom";
 
 
 
@@ -71,9 +72,9 @@ function Header() {
                 во благо людей.
               </h2>
               <div className={classes.buttons}>
-                <a style={activeBtn} className={classes.active__btn} href="/join-us">
+                <Link style={activeBtn} className={classes.active__btn} to="/join-us">
                   Присоединяйся в команду
-                </a>
+                </Link>
 
                 <span style={btn} className={classes.btn} onClick={Scroll2}>
                   Наши продукты
