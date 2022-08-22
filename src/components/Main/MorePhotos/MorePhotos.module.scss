@@ -1,14 +1,32 @@
 .MorePhotos {
 
   padding-bottom: 4rem;
+  // padding-left: calc(2rem + (2 -2) * ((100vw - 320px) / (1248 - 320)));
+  // padding-right: calc(2rem + (2 -2) * ((100vw - 320px) / (1248 - 320)));
+  margin: 0 auto;
+  margin-right: 2rem;
+  margin-left: calc(2rem + (2 -2) * ((100vw - 320px) / (1248 - 320)));
 }
 
 .MorePhotos {
   display: flex;
   justify-content: center;
+  // text-align: center;
+
+  text-align: center;
+
+  // border: 2px solid red;
   & a {
-    font-size: 16px;
-    padding: 1rem 60px;
+    text-align: center;
+    margin: 0 auto;
+    // // font-size: 16px;
+    // text-align: center;
+
+    font-size: calc(16px + (16 - 12) * ((100vw - 320px) / (1248 - 320)));
+    padding: 1rem 0px;
+    max-width: 650px;
+    // padding-left: calc(60px + (60 - 60) * ((100vw - 320) / (1248 - 320)));
+    // padding-right: calc(60px + (60 - 60) * ((100vw - 320) / (1248 - 320)));
     
     border: 3px solid black;
     color: black;

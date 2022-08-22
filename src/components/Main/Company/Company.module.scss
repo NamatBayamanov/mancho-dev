@@ -3,6 +3,9 @@
   margin-bottom: 5rem;
   padding-left: 2rem;
   padding-right: 2rem;
+  margin-bottom: calc(4rem + (5 - 4) * ((100vw - 320px) / (1248 - 320)));
+  padding-left: calc(2rem + (2 - 2) * ((100vw - 320px) / (1248 - 320)));
+  padding-right: calc(2rem + (2 - 2) * ((100vw - 320px) / (1248 - 320)));
 }
 
 .background {
@@ -31,6 +34,7 @@
 
     gap: 40px;
     line-height: 43px;
+    line-height: calc(20px + (43 - 20) * ((100vw - 320px) / (1248 - 320)));
     display: grid;
     grid-template-rows: 2;
     grid-template-columns: repeat(1, minmax(150px, 790px));
@@ -74,6 +78,7 @@
   
       gap: 30px;
       line-height: 32px;
+      line-height: calc(20px + (43 - 20) * ((100vw - 320px) / (1248 - 320)));
       display: grid;
       grid-template-rows: 2;
       grid-template-columns: repeat(1, minmax(150px, 790px));

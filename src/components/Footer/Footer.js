@@ -13,7 +13,7 @@ function Footer() {
               </div>
             </div>
 
-            <ul className={classes.list_1}>
+            <ul className={`${classes.list_1} ${classes.first}`}>
               <h2>РАЗДЕЛЫ</h2>
               <li>
                 <a href="/">Главная</a>
@@ -27,7 +27,7 @@ function Footer() {
                 <a href="/hub">Hub</a>
               </li>
             </ul>
-            <ul className={classes.list_1}>
+            <ul className={`${classes.list_1} ${classes.second}`}>
               <h2>СОЦСЕТИ</h2>
               <li>
                 <a href="https://www.linkedin.com/company/manchodevs/">LinkedIn</a>

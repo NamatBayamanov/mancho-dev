@@ -190,3 +190,73 @@
     }
   }
 }
+
+@media(max-width: 450px) {
+  .JoinUsView {
+    & .content {
+      & .content__width {
+
+        // border: 2px solid black;
+        max-width: 840px;
+        padding-top: 8.5rem;
+        
+        padding-bottom: 1rem;
+        
+        & h2 {
+          font-size: 26px;
+          font-weight: 555;
+          line-height: 36px;
+  
+          color: white;
+  
+          margin-bottom: 2rem;
+  
+          position: relative;
+          z-index: 1;
+        }
+        & p {
+          font-size: 18px;
+          line-height: 25px;
+  
+          color: white;
+          margin-bottom: 3rem;
+          position: relative;
+          z-index: 1;
+        }
+        & .links {
+          display: flex;
+          // border: 2px solid red;
+          // gap: 15px;
+        & .btn {
+          padding-top: 5rem;
+          padding-bottom: 2rem;
+          margin-right: 1rem;
+          & a {
+            position: relative;
+            z-index: 1;
+            
+            font-size: 16px;
+            display: inline-block;
+  
+            padding: 1rem 5rem;
+            border: 3px solid white;
+            border-radius: 3rem;
+            background-color: white;
+            
+  
+            color: black;
+            font-weight: 555;
+  
+          
+          }
+          & a:hover {
+            color: rgb(27, 189, 27);
+          }
+        }
+        }
+  
+        
+      }
+    }
+  }
+}

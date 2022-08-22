@@ -88,6 +88,7 @@ function JoinUsView({ children, text, link_1, link_2, effect, btns, scrolls }) {
                   </Link>; */}
 
                   <Media queries={{
+                    smaller: "(max-width: 499px)",
                     small: "(min-width: 500px) and (max-width: 625px)",
                     medium: "(min-width: 625px) and (max-width: 900px)",
                     large: "(min-width: 901px) and (max-width: 904px)",
@@ -96,6 +97,12 @@ function JoinUsView({ children, text, link_1, link_2, effect, btns, scrolls }) {
 
                   {matches => (
                     <Fragment>
+
+                    {matches.smaller && <Link style={btn} to="/join-us">
+                    {link_1}
+                  </Link>}
+
+
                       {matches.small && <Link style={btn} to="/join-us" onClick={Scroll3}>
                     {link_1}
                   </Link>}

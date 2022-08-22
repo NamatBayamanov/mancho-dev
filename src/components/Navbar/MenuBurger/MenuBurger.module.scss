@@ -17,5 +17,11 @@
 @media(max-width: 745px) {
   .MenuBurger {
     display: flex;
+    & span {
+      padding: calc(.4rem + (.6rem - .4rem) * ((100vw - 320px) / (745 - 320)));
+      // & .menu {
+      //   font-size: calc(26px + (26 - 36) * ((100vw - 320px) / (745 - 320)));
+      // }
+    }
   }
 }
